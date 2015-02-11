@@ -3,4 +3,7 @@ class StudentsController < ApplicationController
     @students = Student.all
     render json: @students
   end
+  
+  def startApp
+  end
 end

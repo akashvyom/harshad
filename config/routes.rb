@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  root 'students#index'
+  root 'students#startApp'
   resources :students
   
   get 'templates/student', to: 'templates#student'
